@@ -1,0 +1,21 @@
+1) CATÁLOGO ELETRÔNICO DE COMPRAS :
+
+https://catalogo.compras.gov.br/cnbs-web/busca
+
+
+
+2) WEBINAR:
+
+-> Lançamento do Catálogo -> https://www.youtube.com/watch?v=hyWOOzhEThg
+
+-> Padronização de Produtos para Saúde -> https://youtu.be/dbtOI24g1jI
+
+-> Apresentação do webinar Padronização de Produtos para Saúde -> https://www.gov.br/compras/pt-br/sistemas/conheca-o-compras/catalogo/CatalogaodePPSME.pdf
+
+
+
+3) MANUAIS:
+
+-> Manual CATMAT e CATSER -> https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-siasg/manual-siasg-catalogo/manual-catmat-e-catser-2020.pdf
+
+-> Manual de Integração com Siasg – XML - CATMAT -> https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-siasg/manual-siasg-catalogo/xml_catmat_material.pdf
