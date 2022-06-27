@@ -35,13 +35,13 @@
                             <!-- Page heading-->
                             <h1 class="mb-5">Upload your CSV here!</h1>
 							<!-- Forma de Importar CSV -->
-                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <form class="form-subscribe" action="data" method="post" id="contactForm" onSubmit="document.getElementById('submit').disabled=true;">
                                 <!-- Input-->
                                 <div class="row">
                                     <div class="col">
-										<input class="form-control form-control-lg" name="CSV" id="CSV" type="file" />
+										<input class="form-control form-control-lg" name="csvfile" id="csvfile" value="" type="file" required=true/>
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
+                                    <div class="col-auto"><button class="btn btn-primary btn-lg" type="submit">Submit</button></div>
                                 </div>
                             </form>
                         </div>
