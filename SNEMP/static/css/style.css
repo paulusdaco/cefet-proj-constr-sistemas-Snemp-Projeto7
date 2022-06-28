@@ -77,6 +77,10 @@
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 60px;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -11299,6 +11303,7 @@ textarea.form-control-lg {
 }
 
 div.mainpage {
+  flex: 1;
   height: 75vh;  
   position: relative;
   background-color: #343a40;

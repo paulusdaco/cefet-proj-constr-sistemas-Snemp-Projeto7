@@ -33,46 +33,12 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">Upload your CSV here!</h1>
-							<!-- Forma de Importar CSV -->
-                            <form class="form-subscribe" action="/" method="POST" id="contactForm" enctype="multipart/form-data" onSubmit="document.getElementById('submit').disabled=true;">
+                            <h1 class="mb-5">DataBase</h1>
+                            <div>
                                 <!-- Input-->
                                 <div class="row">
-                                    <div class="col">
-										<input class="form-control form-control-lg" name="csvfile" id="csvfile" value="" type="file" required=true accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
-                                    </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg" type="submit">Submit</button></div>
+                                    {{data|safe}}
                                 </div>
-                            </form>
-                            <div>
-                                <!-- List  -->
-								{% if data %}
-                                    <div class="row pt-5">
-                                        <div class="col">
-                                            <table class="table table-bordered text-white">
-                                                <thead>
-                                                    <tr>
-                                                        <th>S.No</th>
-                                                        <th>File</th>
-                                                        <th>Delete</th>
-                                                    </tr>
-                                                </thead>
-                                                {% for res in data %}
-                                                {% set i=loop.index %}
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="text-align:center">{{i}}</td>
-                                                        <td>
-                                                            <a href="{{url_for('bd', id=res['pid'])}}" class="btn btn-primary col-12">{{res['exceldata']}}</a>
-                                                        </td>
-                                            
-                                                    </tr>
-                                                </tbody>
-                                                {% endfor %}
-                                            </table>
-                                        </div>
-                                    </div>
-                                {% endif %}
                             </div>
                         </div>
                     </div>
