@@ -64,6 +64,7 @@
                                                         <td style="text-align:center">{{i}}</td>
                                                         <td>
                                                             <a href="{{url_for('bd', id=res['pid'])}}" class="btn btn-primary col-12">{{res['exceldata']}}</a>
+                                                            <td><a href="{{url_for('delete_record', id=res['pid'])}}" class="btn btn-danger col-12 btn-block">Delete</a></td>
                                                         </td>
                                             
                                                     </tr>
@@ -118,3 +119,9 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>

@@ -28,15 +28,14 @@
 
         <!-- Masthead-->
         <div class="mainpage">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
+            <div class="container position-relative align-items-center">
+                <div class="row">
+                    <div class="col">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">DataBase</h1>
-                            <div>
-                                <!-- Input-->
-                                <div class="row">
+                            <h1 class="mb-5 mt--1">DataBase</h1>
+                            <div class="row" id ="table-wrapper">
+                                <div id ="table-scroll">                                                 
                                     {{data|safe}}
                                 </div>
                             </div>

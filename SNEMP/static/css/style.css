@@ -328,9 +328,37 @@ tfoot,
 tr,
 td,
 th {
+  width: 100px;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+}
+
+td.last {
+  width: 1px;
+  white-space: nowrap;
+}
+
+#table-wrapper {
+  position:relative;
+  width: 100%;
+}
+#table-scroll {
+  height:700px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+}
+
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-20px;
+  z-index:1;
+  height:200px;
+  width:100%;
+  border:1px solid rgb(0, 0, 0);
 }
 
 label {
@@ -7323,6 +7351,10 @@ textarea.form-control-lg {
 
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+.mt--1 {
+  margin-top: -4rem;
 }
 
 .mt-auto {
