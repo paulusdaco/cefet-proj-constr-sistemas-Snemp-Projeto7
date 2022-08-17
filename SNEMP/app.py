@@ -52,9 +52,10 @@ def bd(id):
     for val in data:
         path = os.path.join("static/Excel/",val[1])
         data = pd.read_csv(path)
-        data.to_html("output.html")
+    numrow = len(data)
     con.close()
-    return render_template("bd.html", data=data.to_html(index=False, classes="table table-bordered text-white center").replace('<th>','<th class="align-middle" style="text-align:center">'))
+    # return render_template("bd.html", value = numrow, data = data.to_html(index=False, classes="table table-bordered text-white center").replace('<th>','<th class="align-middle" style="text-align:center">'))
+    return render_template("bd.html", value = numrow)
 
 @app.route('/delete_record/<string:id>')
 def delete_record(id):
