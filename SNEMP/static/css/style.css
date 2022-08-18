@@ -365,6 +365,34 @@ td.last {
   text-transform: uppercase;
 }
 
+.width-150px {
+  width: 175px!important;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.content-table thead tr {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #fff;
+}
+
 label {
   display: inline-block;
 }

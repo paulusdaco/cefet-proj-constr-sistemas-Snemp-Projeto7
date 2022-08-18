@@ -56,7 +56,7 @@ def db_connection():
 def index():
     con = db_connection()
     if request.method == 'GET':
-        return render_template("bd.html")
+        return render_template("snemp.html")
 
     if request.method == "POST":
         csvfile = request.files['csvfile']
@@ -125,18 +125,41 @@ def index():
 
         tce_clean.to_sql(name = 'data', con = con, if_exists = 'replace', index = False)
         tce_train.to_sql(name = 'train', con = con, if_exists = 'replace', index = False)
-
-        keys = tce_train.groupby(['ElemDespesaUG']).groups.keys()
         
-        print(keys)
         numrow = len(tce_train)
-        return render_template("bd.html", value = numrow)
+        return render_template("bd.html", tam = 0)
 
-@app.route('/bd', methods=["GET"])
+@app.route('/bd', methods=["GET", "POST"])
 def bd():
     con = db_connection()
-    cur = con.cursor()
+    cur = con.cursor()   
+    if request.form['searchbar1'] != None:
+        if request.method == "POST":
+            searchitem =  str(request.form['searchbar1'])
+            tce_train_df = pd.read_sql('SELECT * FROM train', con)
+            mask = tce_train_df['ElemDespesaTCE'] == searchitem
+            tce_train_filter = tce_train_df[mask]
+            
+            # Média, Moda e etc
+            if tce_train_filter.empty:
+                mean = 0
+                moda = 0
+                var = 0
+                dvp = 0
+                min = 0
+                max = 0
+                tam = 0
+            else:
+                mean = round(tce_train_filter['Vlr_Pago'].mean())
+                moda = round(tce_train_filter['Vlr_Pago'].mode()[0])
+                var = round(tce_train_filter['Vlr_Pago'].var())
+                dvp = round(tce_train_filter['Vlr_Pago'].std())
+                min = round(tce_train_filter['Vlr_Pago'].min())
+                max = round(tce_train_filter['Vlr_Pago'].max())
+                tam = len(tce_train_filter)
 
+            return render_template("bd.html", mean = mean, moda = moda, var = var, dvp = dvp, min = min, max = max, tam = tam)
+    return render_template("bd.html")
     
 if __name__ ==  "__main__":
     app.run(debug=True)
