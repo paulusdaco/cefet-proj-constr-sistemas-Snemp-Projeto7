@@ -1,9 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
-import os
 import sqlite3
-import csv
-import itertools
 import re
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
@@ -14,7 +11,6 @@ import numpy as np
 from scipy import spatial
 import seaborn as sns
 import unicodedata
-import string as strg
 
 app = Flask(__name__, template_folder="templates")
 ALLOWED_EXTENSIONS = {"csv"}
@@ -71,9 +67,12 @@ def index():
 
         # Analisando os dados e atribuindo a melhor formatação dada pelo Pandas de forma automática
         tce = tce.convert_dtypes() ### RESOLVER PROBLEMA DE DTYPE DIFERENTE NA MESMA COLUNA ###
-
+    
         # Considerando que 79% dos registros não possui informação de 'IdUnidOrcamentaria' criaremos dataset sem essa série
-        tce_clean = tce.drop('IdUnidOrcamentaria', axis=1)
+        if 'IdUnidOrcamentaria' in tce.columns:
+            tce_clean = tce.drop('IdUnidOrcamentaria', axis=1)
+        else:
+            tce_clean = tce
 
         # Corrigindo a formatação das colunas de valores
         for col in tce_clean.filter(like='Vlr').columns: #filtrando/restringindo a execução
@@ -126,7 +125,6 @@ def index():
         tce_clean.to_sql(name = 'data', con = con, if_exists = 'replace', index = False)
         tce_train.to_sql(name = 'train', con = con, if_exists = 'replace', index = False)
         
-        numrow = len(tce_train)
         return render_template("bd.html", tam = 0)
 
 @app.route('/bd', methods=["GET", "POST"])
