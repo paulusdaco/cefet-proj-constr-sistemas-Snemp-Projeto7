@@ -27,3 +27,8 @@ Grupo 3 (composto por):
 - Abra um terminal no diretório SNEMP
 - Digite "python app.py"
 - Segure ctrl no seu teclado e clique no link de ip fornecido no terminal
+
+
+# Como utilizar o aplicativo web:
+- Selecione um decumento de sua máquina
+- Clique no botão "Submit"
