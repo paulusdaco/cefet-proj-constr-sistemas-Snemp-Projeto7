@@ -49,11 +49,14 @@ Grupo 3 (composto por):
 # Testes funcionais com Selenium
 - [Teste no Selenium](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py)
 
-## ✔️ Técnicas e tecnologias utilizadas
+# ✔️ Técnicas e tecnologias utilizadas
 
 - ``Python``
 - ``Visual Studio Code``
 - ``Flask``
+
+# 📁 Acesso ao projeto
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/tree/main/SNEMP).
 
 # Alunos
 
