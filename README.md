@@ -1,5 +1,5 @@
 # Projeto e Construção de Sistemas - CEFET-RJ
-Repositório da disciplina de "Projeto e Construção de Sistemas", do CEFET-RJ, através do Projeto 7 - "Ferramenta para identificação de disparidades em compras públicas".
+Repositório da disciplina de "Projeto e Construção de Sistemas", do CEFET-RJ, através do Projeto 7 - "Ferramenta para identificação de disparidades em compras públicas, com base em Notas de Empenhos emitidas".
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=REQUERIMENTS_TXT&message=CONCLUIDO&color=green&style=for-the-badge"/>
