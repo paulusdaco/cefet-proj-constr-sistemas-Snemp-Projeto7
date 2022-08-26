@@ -11,7 +11,7 @@ Grupo 3 (composto por):
 
 
 
-# Instalação da ferramenta:
+# Instalação da ferramenta
 - Instale o Python na sua máquina:
     - Entre no site do python: https://www.python.org/downloads/
     - Baixe o arquivo do python e execute o instalador
@@ -23,22 +23,22 @@ Grupo 3 (composto por):
     - No terminal digite "pip install pandas" para instalar a biblioteca pandas
     
 
-# Como rodar o aplicativo web:
+# Como rodar o aplicativo web
 - Abra um terminal no diretório SNEMP
 - Digite "python app.py"
 - Segure ctrl no seu teclado e clique no link de ip fornecido no terminal
 
 
-# Como utilizar o aplicativo web:
+# Como utilizar o aplicativo web
 - Selecione um arquivo do tipo '.csv', contendo dados orçamentários de uso pelo TCE-RJ, de sua máquina
 - Clique no botão "Submit"
 
-# Visualização do arquivo 'requirements.txt':
+# Visualização do arquivo 'requirements.txt'
 - https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt
 
 
-# Procedimento para instalação e configuração da aplicação via docker.
+# Procedimento para instalação e configuração da aplicação via docker
 -
 
-# Testes funcionais com Selenium:
+# Testes funcionais com Selenium
 - https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py
