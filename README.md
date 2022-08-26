@@ -30,5 +30,15 @@ Grupo 3 (composto por):
 
 
 # Como utilizar o aplicativo web:
-- Selecione um decumento de sua máquina
+- Selecione um arquivo do tipo '.csv', contendo dados orçamentários de uso pelo TCE-RJ, de sua máquina
 - Clique no botão "Submit"
+
+# Visualização do arquivo 'requirements.txt':
+- https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt
+
+
+# Procedimento para instalação e configuração da aplicação via docker.
+-
+
+# Testes funcionais com Selenium:
+-
