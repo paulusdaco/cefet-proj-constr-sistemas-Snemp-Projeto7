@@ -34,14 +34,14 @@ Grupo 3 (composto por):
 - Clique no botão "Submit"
 
 # Visualização do arquivo 'requirements.txt'
-- https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt
+- [Arquivo 'requirements.txt'](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt)
 
 
 # Procedimento para instalação e configuração da aplicação via docker
 -
 
 # Testes funcionais com Selenium
-- https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py
+- [Teste no Selenium](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py)
 
 # Alunos
 
