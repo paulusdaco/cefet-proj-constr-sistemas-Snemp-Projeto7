@@ -50,6 +50,7 @@ http://localhost/5000
 - Um arquivo csv para teste foi disponibilizado em duas pastas, na dataset contida dentro da pasta docs e na pasta csv dentro da pasta static da pasta SNEMP.
 - Extraia o arquivo rar e faça o upload desse arquivo csv no site.
 - Clique no botão "Submit"
+- Após ser redirecionado para outra página, basta pesquisar no campo de input o tipo de produto que quer, lembrando que a busca é feita na coluna ElemDespesaTCE e os valores mostrados são correspondentes a coluna de Vlr_Pago.( Importante realizar a pesquisa em CapsLock )Exemplo de busca: MATERIAL DE CONSUMO.
 
 # Arquivo 'requirements.txt'
 - [Arquivo 'requirements.txt'](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt)
