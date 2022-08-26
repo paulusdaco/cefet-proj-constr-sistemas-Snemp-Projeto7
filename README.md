@@ -15,6 +15,9 @@ Grupo 3 (composto por):
 
 - PAULUS JOSEPHUS DE ALMEIDA BARBOSA E DACO
 
+:open_file_folder: 
+
+![Imagem do Projeto SNEMP](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/docs/99%20_%20GENERALIDADES/simbolo_SNEmp.png)
 
 
 # :hammer: Instalação da ferramenta
@@ -30,14 +33,22 @@ Grupo 3 (composto por):
     ```
     python -m pip install --upgrade pip
     ```
-    - Em seguida digite "python -m pip install flask"
+    - Em seguida, digite:
+    ```
+    python -m pip install flask
+    ```
 - Instale as bibliotecas utilizadas
-    - No terminal digite "pip install pandas" para instalar a biblioteca pandas
-    
+    - No terminal do VS Code, para instalar a biblioteca pandas, digite:
+    ```
+    pip install pandas
+    ```
 
 # Como rodar o aplicativo web
-- Abra um terminal no diretório SNEMP
-- Digite "python app.py"
+- Abra um terminal do VS-Code, exatamente no diretório 'SNEMP';
+- Digite:
+```
+python app.py
+```
 - Segure ctrl no seu teclado e clique no link de ip fornecido no terminal
 
 
