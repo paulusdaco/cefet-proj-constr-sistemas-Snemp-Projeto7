@@ -49,6 +49,12 @@ Grupo 3 (composto por):
 # Testes funcionais com Selenium
 - [Teste no Selenium](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py)
 
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Python``
+- ``Visual Studio Code``
+- ``Flask``
+
 # Alunos
 
 | [<img src="https://avatars.githubusercontent.com/u/67447500?v=4" width=115><br><sub>Bruno Ferrari</sub>](https://github.com/brsferrari) |  [<img src="https://avatars.githubusercontent.com/u/61014227?v=4" width=115><br><sub>Ian McIntosh</sub>](https://github.com/Crian53) |  [<img src="https://avatars.githubusercontent.com/u/31428022?v=4" width=115><br><sub>Paulus Daco</sub>](https://github.com/paulusdaco) |
