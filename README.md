@@ -33,7 +33,7 @@ Grupo 3 (composto por):
 - Selecione um arquivo do tipo '.csv', contendo dados orçamentários de uso pelo TCE-RJ, de sua máquina
 - Clique no botão "Submit"
 
-# Visualização do arquivo 'requirements.txt'
+# Arquivo 'requirements.txt'
 - [Arquivo 'requirements.txt'](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/requirements.txt)
 
 
