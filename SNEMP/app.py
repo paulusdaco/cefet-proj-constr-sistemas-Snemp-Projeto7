@@ -13,10 +13,6 @@ import seaborn as sns
 import unicodedata
 
 app = Flask(__name__, template_folder="templates")
-ALLOWED_EXTENSIONS = {"csv"}
-app.config['UPLOAD_FOLDER'] = "static/Excel"
-
-app.secret_key = "123"
 
 pd.options.mode.chained_assignment = None
 
@@ -160,4 +156,4 @@ def bd():
     return render_template("bd.html")
     
 if __name__ ==  "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')

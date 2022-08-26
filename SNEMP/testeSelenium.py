@@ -11,7 +11,7 @@ chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
-driver.get("http://127.0.0.1:5000/")
+driver.get("http://localhost:5000/")
 
 # Teste de importação
 csv = driver.find_element("id","csvfile")
