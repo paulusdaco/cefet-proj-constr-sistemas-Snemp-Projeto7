@@ -83,7 +83,7 @@ docker run -it -d -p 5000:5000 "nome do docker"  # <-- Tire as aspas
 - ``Visual Studio Code``
 - ``Flask``
 - ``sqlite3``
-- ``doker``
+- ``docker``
 - ``wsl2``
 
 # 📁 Acesso ao projeto
