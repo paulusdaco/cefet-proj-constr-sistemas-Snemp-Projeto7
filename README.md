@@ -27,7 +27,7 @@ Grupo 3 (composto por):
     https://www.python.org/downloads/
     ```
     - Baixe o arquivo do python e execute o instalador
-    - Caso esteja utilizando o VSCode, além dos passos acima faça o download da extensão do Python no próprio VSCode
+    - Caso esteja utilizando o VS Code, além dos passos acima, faça o download da extensão do Python, no próprio VSCode.
 - Instale o Flask na sua máquina:
     - No terminal do VS Code, digite: 
     ```
@@ -71,9 +71,10 @@ python app.py
 - ``Python``
 - ``Visual Studio Code``
 - ``Flask``
+- ``sqlite3``
 
 # 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/tree/main/SNEMP).
+Você pode acessar os arquivos do projeto, clicando [aqui](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/tree/main/SNEMP).
 
 # Alunos
 
