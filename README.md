@@ -42,7 +42,7 @@ python app.py
 ```
 - Entre no site abaixo:
 ```
-http://localhost/5000
+[http://localhost/5000](http://localhost:5000/)
 ```
 
 # Como utilizar o aplicativo web
