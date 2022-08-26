@@ -63,7 +63,7 @@ https://www.docker.com/
 ```
 - Faça o pull do container na sua máquina com o seguinte comando:
 ```
-Ainda está em upload pelo arquivo ser muito grande
+docker pull brsferrari/snemp:latest
 ```
 - Para saber o nome do docker execute o comando:
 ```
