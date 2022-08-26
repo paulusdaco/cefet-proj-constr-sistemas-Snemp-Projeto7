@@ -11,7 +11,7 @@ Grupo 3 (composto por):
 
 
 
-# Instalação da ferramenta
+# :hammer: Instalação da ferramenta
 - Instale o Python na sua máquina:
     - Entre no site do python: https://www.python.org/downloads/
     - Baixe o arquivo do python e execute o instalador
