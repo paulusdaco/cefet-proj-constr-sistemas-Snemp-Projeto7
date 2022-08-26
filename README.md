@@ -20,27 +20,18 @@ Grupo 3 (composto por):
 ![Imagem do Projeto SNEMP](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/docs/99%20_%20GENERALIDADES/simbolo_SNEmp.png)
 
 
-# :hammer: Instalação da ferramenta
+# :hammer: Instalação da ferramenta (caso deseja instalar o repositório do GIT)
 - Instale o Python em sua máquina:
     - Entre no site do python: 
     ```
     https://www.python.org/downloads/
     ```
-    - Baixe o arquivo do python e execute o instalador
+    - Baixe o arquivo do python e execute o instalador.
     - Caso esteja utilizando o VS Code, além dos passos acima, faça o download da extensão do Python, no próprio VSCode.
-- Instale o Flask na sua máquina:
-    - No terminal do VS Code, digite: 
+- Instale as bibliotecas requeridas:
+    - Basta executar a linha de comando abaixo no diretório 'SNEMP'.
     ```
-    python -m pip install --upgrade pip
-    ```
-    - Em seguida, digite:
-    ```
-    python -m pip install flask
-    ```
-- Instale as bibliotecas utilizadas
-    - No terminal do VS Code, para instalar a biblioteca pandas, digite:
-    ```
-    pip install pandas
+    pip install -r requirements.txt
     ```
 
 # Como rodar o aplicativo web
@@ -49,11 +40,15 @@ Grupo 3 (composto por):
 ```
 python app.py
 ```
-- Com o teclado, segure 'Ctrl' ou 'Cmd', e clique no link de ip fornecido pelo próprio terminal.
-
+- Entre no site abaixo:
+```
+http://localhost/5000
+```
 
 # Como utilizar o aplicativo web
-- Selecione um arquivo do tipo '.csv', contendo dados orçamentários de uso pelo TCE-RJ, de sua máquina
+- Selecione um arquivo do tipo '.csv', contendo dados orçamentários de uso pelo TCE-RJ, de sua máquina.
+- Um arquivo csv para teste foi disponibilizado em duas pastas, na dataset contida dentro da pasta docs e na pasta csv dentro da pasta static da pasta SNEMP.
+- Extraia o arquivo rar e faça o upload desse arquivo csv no site.
 - Clique no botão "Submit"
 
 # Arquivo 'requirements.txt'
@@ -61,7 +56,22 @@ python app.py
 
 
 # Procedimento para instalação e configuração da aplicação via docker
--
+- Baixe o Docker em sua máquina pelo site seguindo o tutorial disponibilizado pelo mesmo:
+```
+https://www.docker.com/
+```
+- Faça o pull do container na sua máquina com o seguinte comando:
+```
+Ainda está em upload pelo arquivo ser muito grande
+```
+- Para saber o nome do docker execute o comando:
+```
+docker images
+```
+- Em sequência execute o comando abaixo:
+```
+docker run -it -d -p 5000:5000 "nome do docker"  # <-- Tire as aspas
+```
 
 # Testes funcionais com Selenium
 - [Teste no Selenium](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py)
@@ -72,6 +82,8 @@ python app.py
 - ``Visual Studio Code``
 - ``Flask``
 - ``sqlite3``
+- ``doker``
+- ``wsl2``
 
 # 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto, clicando [aqui](https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/tree/main/SNEMP).
