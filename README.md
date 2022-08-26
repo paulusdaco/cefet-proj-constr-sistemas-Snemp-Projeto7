@@ -49,7 +49,7 @@ Grupo 3 (composto por):
 ```
 python app.py
 ```
-- Segure ctrl no seu teclado e clique no link de ip fornecido no terminal
+- Com o teclado, segure 'Ctrl' ou 'Cmd', e clique no link de ip fornecido pelo próprio terminal.
 
 
 # Como utilizar o aplicativo web
