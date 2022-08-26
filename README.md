@@ -41,4 +41,4 @@ Grupo 3 (composto por):
 -
 
 # Testes funcionais com Selenium:
--
+- https://github.com/paulusdaco/cefet-proj-constr-sistemas-Snemp-Projeto7/blob/main/SNEMP/testeSelenium.py
